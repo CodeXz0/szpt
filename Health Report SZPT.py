@@ -9,7 +9,7 @@ def autofile(user,passwd):
     chromedriver=r'.\driver.exe'
     web=webdriver.Chrome(chromedriver)
 
-    url = "https://ehall.szpt.edu.cn/publicappinternet/sys/szptpubxsjkxxbs/index.do?openflag&THEME=indigo#/mrxxbs"
+    url = "https://ehall.szpt.edu.cn/publicappfile/sys/szptpubxsjkxxbs/index.do?openflag&THEME=indigo#/mrxxbs"
     web.get(url)
     time.sleep(1)
 #登录功能
