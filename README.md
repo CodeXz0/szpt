@@ -19,7 +19,7 @@ This is the repository for Eday.
 ## 文档 | Doc
 
 
-[阅读文档了解更多信息](https://h5-dooring.github.io/dooringx/).
+[阅读文档了解更多信息](/).
 
 
 ## Quick Start
