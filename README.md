@@ -31,10 +31,6 @@ dooringx-lib 提供自己的一套数据流事件机制以及弹窗等解决方�
 
 [阅读文档了解更多信息](https://h5-dooring.github.io/dooringx/).
 
-## 二次开发安装 | Installation
-```bash
-npm/yarn  install dooringx-lib
-```
 
 ## Quick Start
 
