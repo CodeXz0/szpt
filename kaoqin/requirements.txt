@@ -1,0 +1,4 @@
+requests
+execjs2
+lxml
+Beautifulsoup4
