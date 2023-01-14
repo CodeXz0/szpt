@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 class szpt:
     def __init__(self):
-        print("开始登录")
+        print("======开始登录======")
     def szpt_js(self,pwd,key):
         with open('szpt.js', 'r', encoding='utf-8') as f:
             js = f.read()
