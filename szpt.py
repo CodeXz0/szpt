@@ -1,17 +1,36 @@
 import requests
 import json
+import random
+import base64
 from lxml import etree
-import execjs
+from Crypto.Cipher import AES
 from bs4 import BeautifulSoup
 
 class szpt:
     def __init__(self):
-        print("======开始登录======")
-    def szpt_js(self,pwd,key):
-        with open('szpt.js', 'r', encoding='utf-8') as f:
-            js = f.read()
-        data = execjs.compile(js)
-        return data.call('etd2',pwd,key)
+        print("开始登录")
+        
+    def rds(self,length):
+        chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678'
+        return ''.join(random.choice(chars) for i in range(length))
+        
+    def padding(self,data, iv):
+        length = len(iv)
+        bytes_length = len(data.encode('utf-8'))
+        padding_size = length if (bytes_length == length) else bytes_length
+        padd = length - padding_size % length
+        padding_text = chr(padd) * padd
+        return data + padding_text
+
+    def szpt_encrypt(self,data,key):
+        key = key.encode('utf-8')
+        iv = self.rds(16).encode('utf-8')
+        data = self.rds(64)+data
+        cipher = AES.new(key, AES.MODE_CBC, iv)
+        content_padding = self.padding(data, iv)
+        encrypt_bytes = cipher.encrypt(content_padding.encode('utf-8'))
+        result = str(base64.b64encode(encrypt_bytes), encoding='utf-8')
+        return result
 
     def main(self):
         user = input("请输入学号：")
@@ -48,7 +67,7 @@ class szpt:
         url = "https://authserver.szpt.edu.cn/authserver/login"
         data = {
             "username": user,
-            "password": self.szpt_js(passwd,key),
+            "password": self.szpt_encrypt(passwd,key),
             "lt": lt,
             "dllt": "userNamePasswordLogin",
             "execution": "e1s1",
@@ -63,8 +82,7 @@ class szpt:
             html = s.get(response.url)
 
         else:
-            print("登录失败")
-            print(msg.text)
+            print("登录失败："+msg.text)
             exit()
         #获取考勤打卡记录
         url = "https://i.szpt.edu.cn/zsy_jiekou_kq?row=25&blcode=kqdk&manuid=&manrid="
