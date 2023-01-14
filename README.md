@@ -36,12 +36,10 @@ dooringx-lib 提供自己的一套数据流事件机制以及弹窗等解决方�
 npm/yarn  install dooringx-lib
 ```
 
-## 项目上手 | Quick Start
+## Quick Start
 
   ```bash
-# 克隆项目
-# cnpmjs
-git clone https://github.com.cnpmjs.org/H5-Dooring/dooringx.git
+# pip install -r requirements.txt
 
 # or
 git clone https://github.com/H5-Dooring/dooringx.git
