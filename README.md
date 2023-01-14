@@ -1,11 +1,14 @@
 <h1 align="center">Hello  👋</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/python-Eday--lib-brightgreen" />
   <a href="https://www.python.org">
+  <img src="https://img.shields.io/badge/python-Eday--lib-brightgreen" />
+  </a>
+  <a href="https://github.com/CodeXz0/szpt">
     <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
   </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
+  
+  <a href="https://github.com/CodeXz0">
+    <img alt="License: Eday" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
   </a>
 <div align=center >
 </div>
