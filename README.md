@@ -8,8 +8,8 @@
 
 
 This is the repository for Eday.
-- 🔥 Written in Python and JavaScript
-- 🛠️ Functions Are Still Under Development
+- 🛠️ Written in Python and JavaScript
+- 🔥 Functions Are Still Under Development
 - 🙅‍♂️ Don't Frequently Requests
 # 简介 | Brief Intro
 
