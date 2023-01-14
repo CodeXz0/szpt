@@ -8,7 +8,7 @@
   </a>
   
   <a href="https://github.com/CodeXz0">
-    <img alt="License: Eday" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
+    <img alt="License: Eday" src="https://img.shields.io/badge/license-Eday-yellow.svg" target="_blank" />
   </a>
 <div align=center >
 </div>
