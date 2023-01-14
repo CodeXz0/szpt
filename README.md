@@ -65,76 +65,6 @@ yarn start:doc
   ```
 
 
-## 同步代码 | Synchronizing Code
-
-```
-# add upstream
-git remote add upstream https://github.com/H5-Dooring/dooringx
-
-# 抓取源仓库修改 master分支
-git fetch upstream main
-
-# 切换分支
-git checkout main
-
-# 合并远程分支
-git merge upstream/main
-```
-## 🤝 贡献 | Contributing
-
-欢迎参与贡献，提出问题、新功能合并请求等！
-
-最新的贡献情况可以参阅 GitHub 提供的[contributors](https://github.com/H5-Dooring/dooringx/graphs/contributors)页面
-
-### ❓ 问题 | Issue
-Contributions, issues and feature requests are welcome!.
-<br />Feel free to check [issues page](https://github.com/H5-Dooring/dooringx/issues).
-
-欢迎提Issues 或者 联系qq:673632758
-
-## 持续升级 | Continuous Upgrades
-[Change Log](./CHANGELOG.md)
-
-
-## ✂️ 快照 | Screen Shots
-
-<img src="https://yehuozhili-1259443377.cos.ap-nanjing.myqcloud.com/xxa.jpg"/>
-
-<img src="https://yehuozhili-1259443377.cos.ap-nanjing.myqcloud.com/xxb.jpg"/>
-
-
-### 其他项目 | Other Projects
-
-| Project               |       Version                          | Repo                 |
-| --------------------- | ------------------------------- | -------------------- |
-| h5-Dooring | [![rc][h5-badge]][h5-Dooring]     | [[GitHub][h5-Dooring]] |
-| v6.dooring | [![rc][v6-badge]][v6.dooring]     | [[GitHub][v6.dooring]] |
-| pc-Dooring | [![rc][pc-badge]][pc-Dooring]     | [[GitHub][pc-Dooring]] |
-
-
-
-
-[h5-badge]: https://img.shields.io/badge/Dooring-h5-brightgreen.svg
-[h5-Dooring]: https://github.com/MrXujiang/h5-Dooring
-
-[v6-badge]: https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000
-[v6.dooring]: https://github.com/MrXujiang/v6.dooring.public
-
-[pc-badge]: https://img.shields.io/badge/version-1.2-blue.svg?cacheSeconds=2592000
-[pc-Dooring]: https://github.com/MrXujiang/pc-Dooring
-
-
-### DooringX视频教程 | dooringx tech
-
-| title(标题)              |       address(视频地址)                          |
-| --------------------- | ------------------------------- |
-| 前端推荐!使用这款工具,设计稿一键转化成H5页面 | [观看教程](https://www.bilibili.com/video/BV11R4y1E7at?spm_id_from=333.337.search-card.all.click)    |
-| 学会了这个低代码框架, 你就是别人眼中的技术大佬! | [观看教程](https://www.bilibili.com/video/BV1Wr4y1k7mL?spm_id_from=333.337.search-card.all.click)     |
-| [H5制作]如何轻松制作H5页面,并定制自己的低代码平台? | [观看教程](https://www.bilibili.com/video/BV1ov411g7YX?spm_id_from=333.337.search-card.all.click)     |
-| 前端推荐!使用这款工具,设计稿一键转化成H5页面 | [观看教程](https://www.bilibili.com/video/BV11R4y1E7at?spm_id_from=333.337.search-card.all.click)     |
-| H5制作】lowocde盛行, 使用这款可视化编辑器轻松帮你制作H5页面 | [观看教程](https://www.bilibili.com/video/BV1q3411i79j?spm_id_from=333.337.search-card.all.click)     |
-
-
 ###  团队介绍 | Team 
 
 - [徐小夕 | 产品负责](https://github.com/MrXujiang)
@@ -155,6 +85,6 @@ Contributions, issues and feature requests are welcome!.
 
 ## License
 
-MIT
+Eday
 
 
