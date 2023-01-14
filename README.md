@@ -19,7 +19,7 @@ This is the repository for Eday.
 ## 文档 | Doc
 
 
-[阅读文档了解更多信息](/).
+[阅读文档了解更多信息](https://github.com/CodeXz0/szpt_js).
 
 
 ## Quick Start
