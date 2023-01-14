@@ -2,9 +2,9 @@ import requests
 import json
 import random
 import base64
-from lxml import etree
 from Crypto.Cipher import AES
 from bs4 import BeautifulSoup
+from lxml import etree
 
 class szpt:
     def __init__(self):
