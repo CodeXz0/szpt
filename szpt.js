@@ -1,4 +1,3 @@
-/* szpt登陆加密js逆向 */
 var CryptoJS = require("crypto-js");
 
 var $_chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
