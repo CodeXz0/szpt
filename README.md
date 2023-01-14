@@ -8,7 +8,7 @@
 
 
 
-This is the repository for DooringX.
+This is the repository for Eday.
 - 💪 The Next Generation Dooring Framework
 - 🔥 Written in TypeScript
 - 🛠️ Rich Features
@@ -17,17 +17,11 @@ This is the repository for DooringX.
 - 🏠 预览 [x.dooring](http://x.dooring.cn/editor/home)
 # 简介 | Brief Intro
 
-dooringx-lib 是 dooringx 的基座，是移除了 dooringx 插件的可视化拖拽框架。
-
-
-
-dooringx-lib 提供自己的一套数据流事件机制以及弹窗等解决方案，可以让你更快地自己定制开发可视化拖拽平台。
+爬取考勤记录等等。
 
 
 ## 文档 | Doc
 
-
-[Read the Docs to Learn More](https://h5-dooring.github.io/dooringx/).
 
 [阅读文档了解更多信息](https://h5-dooring.github.io/dooringx/).
 
