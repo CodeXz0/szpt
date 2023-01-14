@@ -67,14 +67,8 @@ yarn start:doc
 
 ###  团队介绍 | Team 
 
-- [徐小夕 | 产品负责](https://github.com/MrXujiang)
-- [yehuozhili | 技术负责](https://github.com/yehuozhili)
-  - [XiaoZhaoxiaaa | 技术](https://github.com/XiaoZhaoxiaaa)
-  - [GeekQiaQia | 技术](https://github.com/GeekQiaQia)
-  - [RalapChen | 技术](https://github.com/RalapChen)
-  - [taozhi1010 | 技术](https://github.com/taozhi1010)
+- [Eday | 产品负责](https://github.com/MrXujiang)
 - [47℃ | 设计/交互]()
-- [大风吹 | 后台管理产品]()
 
 
 ## License
