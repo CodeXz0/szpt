@@ -1,5 +1,5 @@
 <div align=center >
-<img  src="https://s1.ax1x.com/2023/01/14/pSMseeJ.jpg"/>
+<img  src=""/>
 </div>
 
 <a href="https://www.python.org">
