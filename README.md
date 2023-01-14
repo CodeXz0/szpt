@@ -1,5 +1,4 @@
 <div align=center >
-<img  src=""/>
 </div>
 
 <a href="https://www.python.org">
