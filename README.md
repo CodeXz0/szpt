@@ -2,7 +2,7 @@
 <img  src="https://img-blog.csdnimg.cn/img_convert/520863a38a93d960862f92c805bc97cc.png#pic_center"/>
 </div>
 
-<a href="https://www.npmjs.com/package/dooringx-lib">
+<a href="https://www.python.org">
     <img src="https://img.shields.io/badge/npm-dooringx--lib-brightgreen" alt="dooringx npm package">
   </a>
 
