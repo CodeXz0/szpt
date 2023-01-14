@@ -41,24 +41,9 @@ npm/yarn  install dooringx-lib
   ```bash
 # pip install -r requirements.txt
 
-# or
-git clone https://github.com/H5-Dooring/dooringx.git
+python3 szpt.py
 
 
-# 进入项目目录
-cd dooringx
-
-# 安装依赖
-yarn install
-
-# 启动 dooringx-lib
-yarn start
-
-# 启动基础示例
-yarn start:example
-
-# 启动 dooringx doc 文档
-yarn start:doc
 
   ```
 
