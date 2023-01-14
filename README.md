@@ -67,8 +67,7 @@ yarn start:doc
 
 ###  团队介绍 | Team 
 
-- [Eday | 产品负责](https://github.com/MrXujiang)
-- [47℃ | 设计/交互]()
+- [Eday](https://github.com/CodeXz0)
 
 
 ## License
