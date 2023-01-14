@@ -3,7 +3,7 @@
 </div>
 
 <a href="https://www.python.org">
-    <img src="https://img.shields.io/badge/npm-dooringx--lib-brightgreen" alt="dooringx npm package">
+    <img src="https://img.shields.io/badge/python-Eday--lib-brightgreen" alt="">
   </a>
 
 
