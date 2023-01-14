@@ -1,4 +1,7 @@
 requests
-execjs2
+json
+base64
+random
 lxml
+pycryptodome
 Beautifulsoup4
