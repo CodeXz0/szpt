@@ -8,12 +8,9 @@
 
 
 This is the repository for Eday.
-- 💪 The Next Generation Dooring Framework
-- 🔥 Written in TypeScript
-- 🛠️ Rich Features
-- 🔩 Universal Plugin Interface
-- 🔥 website: [官网地址](http://x.dooring.cn/dooringx-org)
-- 🏠 预览 [x.dooring](http://x.dooring.cn/editor/home)
+- 🔥 Written in Python and JavaScript
+- 🛠️ Functions Are Still Under Development
+- 🙅‍♂️ Don't Frequently Requests
 # 简介 | Brief Intro
 
 爬取考勤记录等等。
