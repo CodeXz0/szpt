@@ -76,12 +76,6 @@ yarn start:doc
 - [47℃ | 设计/交互]()
 - [大风吹 | 后台管理产品]()
 
-### 技术交流 | Technical Communication
-
-<a href="https://user-images.githubusercontent.com/12525636/143815456-9d056876-2a0b-4564-8372-1cfca76b690e.png" target="_blank"><img src="https://user-images.githubusercontent.com/12525636/143815456-9d056876-2a0b-4564-8372-1cfca76b690e.png" width=260 />dooringx-lib技术交流与反馈</a>
-
-
-
 
 ## License
 
