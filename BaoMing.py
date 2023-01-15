@@ -1,3 +1,4 @@
+#此脚本用于获取讲座信息
 from PIL import Image
 import requests
 import base64
