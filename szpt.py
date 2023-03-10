@@ -2,9 +2,9 @@ import requests
 import json
 import random
 import base64
+import re
 from Crypto.Cipher import AES
 from bs4 import BeautifulSoup
-import re
 
 class szpt:
     def __init__(self):
