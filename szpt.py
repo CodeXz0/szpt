@@ -4,7 +4,7 @@ import random
 import base64
 from Crypto.Cipher import AES
 from bs4 import BeautifulSoup
-from lxml import etree
+import re
 
 class szpt:
     def __init__(self):
@@ -42,9 +42,8 @@ class szpt:
         html = s.get(url)
         cookie_dict = requests.utils.dict_from_cookiejar(s.cookies)
   
-        xpath_data = etree.HTML(html.text)
-        lt = xpath_data.xpath('//input[@name="lt"]//@value')[0]
-        key = xpath_data.xpath('//input[@id="pwdDefaultEncryptSalt"]//@value')[0]
+        lt = re.search('name="lt" value="(.*?)"/>', html.text, re.S).group(1)
+        key = re.search('pwdDefaultEncryptSalt = "(.*?)";', html.text, re.S).group(1)
 
         headers = {
             "Host": "authserver.szpt.edu.cn",
