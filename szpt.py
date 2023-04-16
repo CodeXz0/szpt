@@ -42,9 +42,9 @@ class szpt:
         html = s.get(url)
         cookie_dict = requests.utils.dict_from_cookiejar(s.cookies)
   
-        lt = re.search('name="lt" value="(.*?)"/>', html.text, re.S).group(1)
-        key = re.search('pwdDefaultEncryptSalt = "(.*?)";', html.text, re.S).group(1)
-
+        key = re.search('<*?id="pwdEncryptSalt".*?value="(.*?)".*?>', html.text).group(1)
+        execution = re.search('<*?id="execution".*?value="(.*?)".*?>', html.text).group(1)
+        
         headers = {
             "Host": "authserver.szpt.edu.cn",
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:108.0) Gecko/20100101 Firefox/108.0",
@@ -67,11 +67,11 @@ class szpt:
         data = {
             "username": user,
             "password": self.szpt_encrypt(passwd,key),
-            "lt": lt,
-            "dllt": "userNamePasswordLogin",
-            "execution": "e1s1",
             "_eventId": "submit",
-            "rmShown": "1"
+            "cllt": "userNameLogin",
+            "dllt": "generalLogin",
+            "lt": "",
+            "execution": execution
         }
         response = s.post(url, headers=headers,data=data)
         soup = BeautifulSoup(response.text, 'lxml')
