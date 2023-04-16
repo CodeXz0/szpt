@@ -93,3 +93,5 @@ class szpt:
 if __name__ == '__main__':
     szpt = szpt()
     szpt.main()
+
+#by Crypt
